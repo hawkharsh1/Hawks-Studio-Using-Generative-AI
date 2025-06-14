@@ -74,6 +74,26 @@ Hawk Studio is a professional-grade image editing suite powered by generative AI
    - 🔍 See the result in real time.
    - 💾 Click **Download** to save the final creative for your campaign.
 
+## 🧠 What is Bria AI?
+
+[Bria AI](https://bria.ai) provides powerful APIs for **creative image generation**, **manipulation**, and **visual content enhancement** using generative AI models. It's designed to help businesses and developers create high-quality marketing visuals quickly and programmatically.
+
+### 🔗 Bria AI Capabilities Used in This Project:
+
+In **Hawk Studio AI**, Bria AI is used to:
+
+- 🖼️ **Generate HD product images from text**: You describe your product (e.g., “a sleek smartwatch on a white table”), and Bria returns a photorealistic image.
+- 🏠 **Create lifestyle shots**: It blends your product with realistic backgrounds or environments using either reference images or generated scenes.
+- ✨ **Enhance prompt descriptions**: Automatically refines vague or basic text inputs to make image generation more accurate and impactful.
+
+### 🔐 How Bria AI Is Integrated:
+
+- You enter your **Bria API key** in the sidebar (`streamlit.text_input()` field).
+- The app sends your prompt or image request to Bria’s endpoint via `requests.post()`.
+- The AI processes your input and returns a high-resolution image, which is then displayed in the app and made available for download.
+
+> Bria AI powers the core creativity behind the app — helping you skip stock photo searches or hiring designers for ad creatives.
+
 
 ## 📦 Installation
 

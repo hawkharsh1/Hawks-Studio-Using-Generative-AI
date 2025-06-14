@@ -47,7 +47,33 @@ Hawk Studio is a professional-grade image editing suite powered by generative AI
 - **Bria AI API**
 - `rembg` for background removal
 - `Pillow` and `NumPy` for image processing
-  
+
+## 🧪 How to Use
+
+1. **Enter your API Key**
+   - Launch the app.
+   - On the sidebar, find the **"Enter your API Key"** field.
+   - Paste this sample Bria API key to get started:
+     ```
+     b1162e664ff143abbea3336cc7ee49a5
+     ```
+   - You can also generate your own Bria API key by visiting [Bria AI](https://bria.ai).
+
+2. **Choose a Generation Mode**
+   - ✏️ **Text Prompt** — Type a short product description (e.g., "modern lamp on a wooden table").
+   - 🖼️ **Image Upload** — Upload a product photo to enhance or modify.
+
+3. **Apply Enhancements**
+   - 🎯 Remove background (with optional background color).
+   - 🌅 Add realistic shadows.
+   - 🏠 Generate lifestyle shots using text or reference image.
+   - ✨ Enhance prompts automatically.
+   - 📝 Add marketing-ready CTA text (e.g., "Buy Now").
+
+4. **Preview and Download**
+   - 🔍 See the result in real time.
+   - 💾 Click **Download** to save the final creative for your campaign.
+
 
 ## 📦 Installation
 

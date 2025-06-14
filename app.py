@@ -81,6 +81,7 @@ def main():
         page_title="Hawk's Studio",
         page_icon="🦅",
         layout="wide",
+        colour="black",
         initial_sidebar_state="expanded",
         menu_items={
             'About': "# Hawk's Studio - AI-Powered Creative Studio"

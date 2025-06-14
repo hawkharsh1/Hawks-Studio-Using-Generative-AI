@@ -34,38 +34,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-# JavaScript injection 
-js = """
-<script>
-window.onload = function() {
-    if(window.location.hash === "#adsnap-studio") {
-        history.replaceState(null, null, " ");
-        window.location.hash = "Hawks-studio";
-    }
-}
-</script>
-"""
-
-# Inject custom JavaScript
-def inject_js():
-    with open("custom.js", "r") as f:
-        js_code = f.read()
-    
-    # CSS for transitions
-    css = """
-    <style>
-        .stApp {
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-        .stTabs [role="tab"] {
-            transition: all 0.3s ease;
-        }
-        .stTabs [aria-selected="true"] {
-            font-weight: bold;
-            border-bottom: 3px solid #3498db;
-        }
-    </style>
-    """
     
     # Use components.v1.html instead of just components.html
     components.html(
@@ -85,7 +53,7 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded",
         menu_items={
-            'About': "# Hawk's Studio - AI-Powered Creative Studio"
+            'About': "# Hawk's Studio. - AI-Powered Creative Studio"
         }
     )
     inject_js()

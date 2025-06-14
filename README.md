@@ -40,7 +40,7 @@ Hawk Studio is a professional-grade image editing suite powered by generative AI
 4. Download the image for immediate use in campaigns.
 
 ## 🛠️ Tech Stack
-![screen shot](https://github.com/hawkharsh1/Hawks-Studio-Using-Generative-AI/blob/main/image.png)
+![screen shot](https://github.com/hawkharsh1/Hawks-Studio-Using-Generative-AI/blob/main/Techstack.png)
 
 - **Python 3.10+**
 - **Streamlit**

@@ -94,9 +94,9 @@ In **Hawk Studio AI**, Bria AI is used to:
 
 > Bria AI powers the core creativity behind the app — helping you skip stock photo searches or hiring designers for ad creatives.
 
-### Some generated images from the Hawk's Studio App
+### 🦾Some generated images from the Hawk's Studio App
 ![screen shot](https://github.com/hawkharsh1/Hawks-Studio-Using-Generative-AI/blob/main/seed_1361310814.png)
-![screen shot](https://github.com/hawkharsh1/Hawks-Studio-Using-Generative-AI/blob/main/Techstack.png)
+![screen shot](https://github.com/hawkharsh1/Hawks-Studio-Using-Generative-AI/blob/main/seed_461462317.png)
 
  
 ## 📦 Installation

@@ -34,16 +34,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-    
-    # Use components.v1.html instead of just components.html
-    components.html(
-        f"""
-        {css}
-        <script>{js_code}</script>
-        """,
-        height=0,
-        width=0,
-    )
  # JavaScript injection 
 js = """
 <script>
@@ -76,6 +66,15 @@ def inject_js():
         }
     </style>
     """
+    # Use components.v1.html instead of just components.html
+    components.html(
+        f"""
+        {css}
+        <script>{js_code}</script>
+        """,
+        height=0,
+        width=0,
+    )
 # Call this function in your main()
 def main():
     st.set_page_config(

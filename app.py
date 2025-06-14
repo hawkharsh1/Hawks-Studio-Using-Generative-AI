@@ -243,7 +243,7 @@ def main():
     
     # Generate Images Tab
     with tabs[0]:
-        st.header("✨ Generate Stunning Image")
+        st.header("✨ Generate Stunning Images")
         st.markdown("Create beautiful AI-generated images from text prompts")
         
         col1, col2 = st.columns([2, 1])

@@ -1,8 +1,15 @@
+# Core Framework
 streamlit==1.32.0
 python-dotenv==0.21.0
-Pillow==10.2.0  
-numpy==1.24.4 
-opencv-python-headless==4.8.0.74 
-rembg[cpu]==2.0.38 --no-deps  
-requests==2.31.0  
-streamlit-drawable-canvas==0.9.0 
+
+# Image Processing
+Pillow==9.5.0  # Most stable version
+numpy==1.24.4
+opencv-python-headless==4.8.0.74
+
+# AI Services
+rembg==2.0.38  # Without --no-deps flag
+requests==2.31.0
+
+# Utilities
+streamlit-drawable-canvas==0.9.0

@@ -1,0 +1,125 @@
+/* styles.css */
+.main-container {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-subtitle {
+  color: #7f8c8d;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar-header {
+  color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar-section {
+  color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-text {
+  color: #34495e;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.enhanced-prompt {
+  background-color: #040404;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.95rem;
+  margin: 1rem 0;
+}
+
+.options-header {
+  color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.stButton>button {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stTextArea>textarea {
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.stSelectbox>div>div>select {
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.stSlider>div>div>div>div {
+  background-color: #3498db;
+}
+
+.stCheckbox>label {
+  font-weight: 500;
+}
+/* Add these to your existing styles.css */
+.stTabs [role="tab"] {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 8px 8px 0 0;
+}
+
+.stTabs [aria-selected="true"] {
+  color: #3498db;
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Dark mode defaults */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --text-color: #2c3e50;
+  --background-color: #f8f9fa;
+  --card-bg: #ffffff;
+}
